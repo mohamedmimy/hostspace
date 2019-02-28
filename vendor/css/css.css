@@ -413,8 +413,11 @@ footer .footter-final{
 }
 ::placeholder{
     color: #afa8ba;
+    padding: 10 0 10 30 ;
+    
 }
 textarea{
+    resize: none;
     width: 100%;
     height: 150px;;
     border: none;
@@ -422,20 +425,25 @@ textarea{
     border-radius: 12px;
     background-color: #715691;
 }
-.bttn{
+.btn{
     background-color: #1befc5;
     width: 100px;
     height: 50px;
     border-radius: 12px;
-    margin-top: 20px;
+    margin-left: 15px;
 }
-.bttn a{
+.btn a{
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
     color: #35214d;
-    padding-left: 25px;
-    line-height: 46px;
+    line-height: 1.6;
+}
+ul li{
+    padding: 0px;
+}
+.links{
+    padding: 0px;
 }
 .links h3{
     color: #1befc5;
@@ -454,6 +462,6 @@ textarea{
     transition: all .2s linear;
 }
 .links a:hover{
-     color: #1befc5;
+color: #1befc5;
     }
 /*-------- End footer   ---*/
